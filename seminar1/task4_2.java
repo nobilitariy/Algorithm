@@ -4,7 +4,7 @@ import java.sql.Date;
 
 public class task4_2 {
     public static void main(String[] args) {
-        Date start = new Date();
+        Date start = new Date()
         System.out.println(f1(1000));
         Date end = new Date();
         long time = end.getTime() - start.getTime();
